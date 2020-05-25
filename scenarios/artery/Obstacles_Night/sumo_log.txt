@@ -1,0 +1,16 @@
+***Starting server on port 53127 ***
+Loading net-file from 'Obstacles_Night/pasubio.net.xml'... done (19ms).
+Loading additional-files from 'Obstacles_Night/pasubio.poly.xml'... done (12ms).
+Loading done.
+Simulation version 1.3.1 started with time: 0.00
+Simulation ended at time: 3756.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 43944ms
+ Real time factor: 85.4724
+ UPS: 853.540870
+Vehicles: 
+ Inserted: 241
+ Running: 0
+ Waiting: 0
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mi 30 Okt 2019 17:58:49 CET by Eclipse SUMO netedit Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/pbarabas/Documents/Masterarbeit/Thesis/Images/test/pasubio_buslanes.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/pbarabas/Documents/Masterarbeit/Thesis/Images/test/pasubio_buslanes_obstacles.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/pbarabas/Documents/Masterarbeit/Thesis/Images/test/pasubio_obstacles.poly.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poly id="poly_0" type="building" color="grey" fill="1" layer="128.00" shape="322.550000,959.740000 222.220000,752.280000 503.880000,630.520000 591.670000,823.870000 323.070000,958.690000"/>
+    <poly id="poly_1" type="building" color="grey" fill="1" layer="128.00" shape="376.870000,1145.830000 329.010000,998.170000 499.070000,914.670000 496.020000,899.400000 599.880000,853.570000 670.150000,1007.340000 377.890000,1144.810000"/>
+    <poly id="poly_10" type="building" color="grey" fill="1" layer="128.00" shape="206.630000,728.770000 144.580000,632.240000 182.880000,522.690000 371.340000,457.570000 433.390000,499.710000 486.250000,605.430000 207.400000,726.470000"/>
+    <poly id="poly_11" type="building" color="grey" fill="1" layer="128.00" shape="519.960000,592.410000 460.970000,457.570000 460.970000,426.160000 716.850000,333.470000 778.130000,492.810000 519.960000,591.640000"/>
+    <poly id="poly_12" type="building" color="grey" fill="1" layer="128.00" shape="803.410000,479.020000 745.960000,326.570000 912.970000,302.060000 962.760000,418.500000 804.950000,480.560000"/>
+    <poly id="poly_13" type="building" color="grey" fill="1" layer="128.00" shape="991.870000,405.480000 952.800000,302.820000 1072.310000,283.670000 1137.430000,258.390000 1175.730000,338.060000 993.400000,404.710000"/>
+    <poly id="poly_14" type="building" color="grey" fill="1" layer="128.00" shape="14.100000,1289.590000 328.410000,1157.720000 276.030000,1049.340000 274.220000,993.340000 205.580000,825.340000 -16.610000,592.320000 -255.050000,707.930000 14.100000,1285.980000"/>
+    <poly id="poly_15" type="building" color="grey" fill="1" layer="128.00" shape="1358.060000,682.640000 1220.780000,346.650000 1298.450000,317.750000 1282.190000,288.840000 1211.740000,310.520000 1181.030000,247.300000 1345.420000,279.810000 1652.510000,265.360000 1798.820000,489.350000 1359.870000,684.450000"/>
+    <poly id="poly_16" type="building" color="grey" fill="1" layer="128.00" shape="467.510000,1341.980000 389.830000,1184.820000 689.690000,1049.340000 727.630000,1052.950000 848.660000,996.950000 940.780000,1210.110000 469.310000,1336.560000"/>
+    <poly id="poly_17" type="building" color="grey" fill="1" layer="128.00" shape="64.680000,1408.810000 26.740000,1322.100000 339.250000,1197.460000 409.700000,1343.780000 64.680000,1403.390000"/>
+    <poly id="poly_18" type="building" color="grey" fill="1" layer="128.00" shape="975.100000,1168.560000 888.400000,949.990000 1338.190000,747.670000 1374.320000,818.120000 1591.090000,901.210000 976.910000,1161.340000"/>
+    <poly id="poly_19" type="building" color="grey" fill="1" layer="128.00" shape="1396.000000,725.990000 1408.640000,762.120000 1491.740000,798.250000 1592.890000,778.380000 1685.020000,839.800000 1948.750000,742.250000 1827.730000,523.680000 1394.190000,720.570000"/>
+    <poly id="poly_2" type="building" color="grey" fill="1" layer="128.00" shape="696.560000,994.550000 624.180000,831.280000 708.340000,804.350000 769.780000,958.360000 697.400000,992.860000"/>
+    <poly id="poly_20" type="building" color="grey" fill="1" layer="128.00" shape="416.930000,382.780000 774.590000,250.910000 892.010000,252.720000 783.630000,10.660000 326.610000,231.040000 416.930000,379.160000"/>
+    <poly id="poly_21" type="building" color="grey" fill="1" layer="128.00" shape="942.590000,241.880000 841.430000,-9.210000 1459.220000,-32.700000 1610.960000,214.780000 1280.390000,227.430000 1157.550000,193.100000 942.590000,245.490000"/>
+    <poly id="poly_3" type="building" color="grey" fill="1" layer="128.00" shape="614.920000,809.400000 529.080000,627.610000 793.340000,518.200000 935.570000,884.300000 859.830000,916.280000 779.040000,742.910000 614.920000,806.870000"/>
+    <poly id="poly_4" type="building" color="grey" fill="1" layer="128.00" shape="791.660000,946.580000 727.700000,795.090000 769.780000,773.210000 839.630000,925.540000 791.660000,944.890000"/>
+    <poly id="poly_5" type="building" color="grey" fill="1" layer="128.00" shape="954.930000,875.040000 890.130000,713.450000 1061.810000,640.230000 1124.090000,793.410000 955.770000,873.360000"/>
+    <poly id="poly_6" type="building" color="grey" fill="1" layer="128.00" shape="882.550000,691.570000 817.750000,507.260000 977.650000,445.830000 1049.190000,614.150000 883.390000,690.730000"/>
+    <poly id="poly_7" type="building" color="grey" fill="1" layer="128.00" shape="1145.970000,785.830000 1119.880000,711.770000 1307.560000,625.090000 1337.850000,697.460000 1147.650000,785.830000"/>
+    <poly id="poly_8" type="building" color="grey" fill="1" layer="128.00" shape="1114.830000,684.840000 1085.380000,622.560000 1270.530000,542.610000 1294.930000,601.520000 1113.150000,684.840000"/>
+    <poly id="poly_9" type="building" color="grey" fill="1" layer="128.00" shape="1076.120000,602.360000 1006.270000,433.200000 1188.890000,359.980000 1257.060000,521.570000 1075.280000,600.680000"/>
+</additional>

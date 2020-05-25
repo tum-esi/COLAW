@@ -1,0 +1,12 @@
+***Starting server on port 51961 ***
+Loading net-file from 'pasubio/pasubio_real.net.xml'... done (43ms).
+Loading additional-files from 'pasubio/pasubio_vtypes.add.xml'... done (1ms).
+Loading additional-files from 'pasubio/pasubio_bus_stops.add.xml'... done (0ms).
+Loading additional-files from 'pasubio/pasubio_busses.rou.xml'... done (9ms).
+Loading additional-files from 'pasubio/pasubio_detectors.add.xml'... done (2ms).
+Loading additional-files from 'pasubio/pasubio_tls.add.xml'... done (1ms).
+Loading done.
+Simulation version 1.3.1 started with time: 0.00
+Warning: Teleporting vehicle '9_0'; waited too long (yield), lane='m66b_1', time=585.00.
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

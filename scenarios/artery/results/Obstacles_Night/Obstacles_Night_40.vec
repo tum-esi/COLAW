@@ -1,0 +1,1536 @@
+version 2
+run Obstacles_Night-1-20191117-11:13:37-5434
+attr configname Obstacles_Night
+attr datetime 20191117-11:13:37
+attr experiment Obstacles_Night
+attr inifile omnetpp.ini
+attr iterationvars $0=40
+attr iterationvarsf 40-
+attr measurement $0=40
+attr network artery.veins.World
+attr processid 5434
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+param *.traci.launcher.sumocfg "\"Obstacles_Night/run.sumo.cfg\""
+param *.withObstacles true
+param *.obstacles.obstacles "xmldoc(\"config_obstacles.xml\", \"//AnalogueModel[@type='SimpleObstacleShadowing']/obstacles\")"
+param *.node[*].nic.mac1609_4.txPower 20mW
+param *.node[*].nic.phy80211p.decider "xmldoc(\"config_obstacles.xml\")"
+param *.node[*].nic.phy80211p.analogueModels "xmldoc(\"config_obstacles.xml\")"
+param *.node[*].applType "\"artery.veins.ApplicationLayer\""
+param *.node[*].appl.middleware.updateInterval 0.1s
+param *.node[*].appl.middleware.datetime "\"2013-06-01 12:35:00\""
+param *.node[*].appl.middleware.services "xmldoc(\"services.xml\")"
+param *.node[*].appl.middleware.ExampleService.DecisionLogic 40
+param *.node[*].appl.middleware.ExampleService.NeighboringWindow 60
+param *.traci.core.version -1
+param *.traci.launcher.typename "\"PosixLauncher\""
+param *.playgroundSizeX 4000m
+param *.playgroundSizeY 4000m
+param *.playgroundSizeZ 50m
+param *.connectionManager.maxInterfDist 1500m
+param *.connectionManager.sendDirect true
+param *.connectionManager.coreDebug false
+
+vector 0 World.node[4].appl.middleware.ExampleService proof_size ETV
+vector 1 World.node[4].appl.middleware.ExampleService proof_requested ETV
+vector 2 World.node[0].appl.middleware.ExampleService proof_size ETV
+vector 3 World.node[0].appl.middleware.ExampleService proof_requested ETV
+vector 4 World.node[2].appl.middleware.ExampleService proof_size ETV
+vector 5 World.node[2].appl.middleware.ExampleService proof_requested ETV
+vector 6 World.node[1].appl.middleware.ExampleService proof_size ETV
+vector 7 World.node[1].appl.middleware.ExampleService proof_requested ETV
+vector 8 World.node[6].appl.middleware.ExampleService proof_size ETV
+vector 9 World.node[6].appl.middleware.ExampleService proof_requested ETV
+vector 10 World.node[7].appl.middleware.ExampleService proof_size ETV
+vector 11 World.node[7].appl.middleware.ExampleService proof_requested ETV
+vector 12 World.node[9].appl.middleware.ExampleService proof_size ETV
+vector 13 World.node[9].appl.middleware.ExampleService proof_requested ETV
+vector 14 World.node[3].appl.middleware.ExampleService proof_size ETV
+vector 15 World.node[3].appl.middleware.ExampleService proof_requested ETV
+15	92266	160.093191828519	1
+14	92266	160.093191828519	1
+1	9645	54.033074702835	2
+1	50083	114.033074702835	2
+0	9645	54.033074702835	1
+0	50083	114.033074702835	0
+11	69634	139.070812863903	4
+10	69634	139.070812863903	0
+vector 16 World.node[10].appl.middleware.ExampleService proof_size ETV
+vector 17 World.node[10].appl.middleware.ExampleService proof_requested ETV
+vector 18 World.node[8].appl.middleware.ExampleService proof_size ETV
+vector 19 World.node[8].appl.middleware.ExampleService proof_requested ETV
+7	48283	111.056576513033	3
+7	100810	171.056576513033	2
+6	48283	111.056576513033	1
+6	100810	171.056576513033	0
+vector 20 World.node[11].appl.middleware.ExampleService proof_size ETV
+vector 21 World.node[11].appl.middleware.ExampleService proof_requested ETV
+5	15505	68.001673040025	1
+5	59690	128.001671248895	1
+5	117349	191.0013017338	5
+4	15505	68.001673040025	1
+4	59690	128.001671248895	1
+4	117349	191.0013017338	2
+9	57370	125.044260109402	2
+9	112114	185.044260109402	4
+9	169342	242.065197423978	2
+8	57370	125.044260109402	1
+8	112114	185.044260109402	0
+8	169342	242.065197423978	2
+3	10414	56.093192535464	1
+3	51319	116.115339473981	1
+3	165442	239.054966247594	3
+2	10414	56.093192535464	1
+2	51319	116.115339473981	1
+2	165442	239.054966247594	0
+vector 22 World.node[15].appl.middleware.ExampleService proof_size ETV
+vector 23 World.node[15].appl.middleware.ExampleService proof_requested ETV
+vector 24 World.node[14].appl.middleware.ExampleService proof_size ETV
+vector 25 World.node[14].appl.middleware.ExampleService proof_requested ETV
+25	203382	277.144350627711	2
+24	203382	277.144350627711	2
+vector 26 World.node[16].appl.middleware.ExampleService proof_size ETV
+vector 27 World.node[16].appl.middleware.ExampleService proof_requested ETV
+vector 28 World.node[17].appl.middleware.ExampleService proof_size ETV
+vector 29 World.node[17].appl.middleware.ExampleService proof_requested ETV
+19	108550	181.076788926567	5
+19	164604	238.115083692035	3
+18	108550	181.076788926567	2
+18	164604	238.115083692035	3
+29	212842	288.153787565754	3
+28	212842	288.153787565754	3
+vector 30 World.node[12].appl.middleware.ExampleService proof_size ETV
+vector 31 World.node[12].appl.middleware.ExampleService proof_requested ETV
+17	107229	179.045780810248	3
+17	165369	239.045780810248	3
+17	220823	296.046153859348	1
+16	107229	179.045780810248	0
+16	165369	239.045780810248	0
+16	220823	296.046153859348	1
+vector 32 World.node[19].appl.middleware.ExampleService proof_size ETV
+vector 33 World.node[19].appl.middleware.ExampleService proof_requested ETV
+vector 34 World.node[18].appl.middleware.ExampleService proof_size ETV
+vector 35 World.node[18].appl.middleware.ExampleService proof_requested ETV
+31	234758	316.151962506567	2
+30	234758	316.151962506567	2
+23	190628	264.144613078038	1
+23	245596	327.084243638092	3
+22	190628	264.144613078038	1
+22	245596	327.084243638092	1
+vector 36 World.node[22].appl.middleware.ExampleService proof_size ETV
+vector 37 World.node[22].appl.middleware.ExampleService proof_requested ETV
+vector 38 World.node[20].appl.middleware.ExampleService proof_size ETV
+vector 39 World.node[20].appl.middleware.ExampleService proof_requested ETV
+vector 40 World.node[23].appl.middleware.ExampleService proof_size ETV
+vector 41 World.node[23].appl.middleware.ExampleService proof_requested ETV
+vector 42 World.node[21].appl.middleware.ExampleService proof_size ETV
+vector 43 World.node[21].appl.middleware.ExampleService proof_requested ETV
+13	80542	149.065443674564	1
+13	135980	212.005078048189	4
+13	194393	269.00544975412	1
+13	250870	332.005078048189	3
+12	80542	149.065443674564	1
+12	135980	212.005078048189	1
+12	194393	269.00544975412	1
+12	250870	332.005078048189	1
+41	306325	395.12828551949	1
+40	306325	395.12828551949	1
+39	282963	369.124587868518	1
+38	282963	369.124587868518	1
+33	269823	352.044357800899	1
+33	328582	412.051958047174	3
+32	269823	352.044357800899	1
+32	328582	412.051958047174	3
+vector 44 World.node[24].appl.middleware.ExampleService proof_size ETV
+vector 45 World.node[24].appl.middleware.ExampleService proof_requested ETV
+35	269917	352.091843257984	2
+35	324644	409.172155622211	3
+34	269917	352.091843257984	1
+34	324644	409.172155622211	3
+27	205239	279.154042381014	1
+27	260318	342.093671532744	2
+27	311829	399.212442043892	1
+26	205239	279.154042381014	1
+26	260318	342.093671532744	1
+26	311829	399.212442043892	1
+vector 46 World.node[25].appl.middleware.ExampleService proof_size ETV
+vector 47 World.node[25].appl.middleware.ExampleService proof_requested ETV
+vector 48 World.node[26].appl.middleware.ExampleService proof_size ETV
+vector 49 World.node[26].appl.middleware.ExampleService proof_requested ETV
+vector 50 World.node[27].appl.middleware.ExampleService proof_size ETV
+vector 51 World.node[27].appl.middleware.ExampleService proof_requested ETV
+vector 52 World.node[28].appl.middleware.ExampleService proof_size ETV
+vector 53 World.node[28].appl.middleware.ExampleService proof_requested ETV
+vector 54 World.node[29].appl.middleware.ExampleService proof_size ETV
+vector 55 World.node[29].appl.middleware.ExampleService proof_requested ETV
+vector 56 World.node[30].appl.middleware.ExampleService proof_size ETV
+vector 57 World.node[30].appl.middleware.ExampleService proof_requested ETV
+21	156654	232.051358214254	5
+21	267250	349.051951115405	1
+21	328554	412.051358214254	3
+20	156654	232.051358214254	1
+20	267250	349.051951115405	1
+20	328554	412.051358214254	1
+49	408887	500.038403086364	2
+48	408887	500.038403086364	1
+37	281481	367.124848314778	1
+37	343087	427.124846955307	1
+37	396938	490.064477270935	2
+36	281481	367.124848314778	1
+36	343087	427.124846955307	1
+36	396938	490.064477270935	1
+vector 58 World.node[33].appl.middleware.ExampleService proof_size ETV
+vector 59 World.node[33].appl.middleware.ExampleService proof_requested ETV
+vector 60 World.node[31].appl.middleware.ExampleService proof_size ETV
+vector 61 World.node[31].appl.middleware.ExampleService proof_requested ETV
+vector 62 World.node[32].appl.middleware.ExampleService proof_size ETV
+vector 63 World.node[32].appl.middleware.ExampleService proof_requested ETV
+45	366756	456.052327962662	3
+45	432776	516.052327962662	4
+44	366756	456.052327962662	2
+44	432776	516.052327962662	2
+43	308728	397.084735274499	2
+43	439418	520.046874061669	2
+42	308728	397.084735274499	2
+42	439418	520.046874061669	0
+vector 64 World.node[34].appl.middleware.ExampleService proof_size ETV
+vector 65 World.node[34].appl.middleware.ExampleService proof_requested ETV
+47	370532	460.006955052703	2
+47	439294	520.006955052703	3
+47	525531	580.006955052703	2
+46	370532	460.006955052703	1
+46	439294	520.006955052703	2
+46	525531	580.006955052703	1
+vector 66 World.node[37].appl.middleware.ExampleService proof_size ETV
+vector 67 World.node[37].appl.middleware.ExampleService proof_requested ETV
+vector 68 World.node[36].appl.middleware.ExampleService proof_size ETV
+vector 69 World.node[36].appl.middleware.ExampleService proof_requested ETV
+vector 70 World.node[39].appl.middleware.ExampleService proof_size ETV
+vector 71 World.node[39].appl.middleware.ExampleService proof_requested ETV
+vector 72 World.node[41].appl.middleware.ExampleService proof_size ETV
+vector 73 World.node[41].appl.middleware.ExampleService proof_requested ETV
+vector 74 World.node[38].appl.middleware.ExampleService proof_size ETV
+vector 75 World.node[38].appl.middleware.ExampleService proof_requested ETV
+vector 76 World.node[35].appl.middleware.ExampleService proof_size ETV
+vector 77 World.node[35].appl.middleware.ExampleService proof_requested ETV
+55	420405	508.212440606533	2
+55	513932	571.096610084176	3
+55	623677	631.096610084176	5
+54	420405	508.212440606533	2
+54	513932	571.096610084176	1
+54	623677	631.096610084176	4
+vector 78 World.node[40].appl.middleware.ExampleService proof_size ETV
+vector 79 World.node[40].appl.middleware.ExampleService proof_requested ETV
+51	413207	503.10698053305	2
+51	500200	563.172618301629	3
+51	604219	623.115128845866	1
+51	758838	686.05476146345	5
+50	413207	503.10698053305	2
+50	500200	563.172618301629	3
+50	604219	623.115128845866	1
+50	758838	686.05476146345	3
+vector 80 World.node[42].appl.middleware.ExampleService proof_size ETV
+vector 81 World.node[42].appl.middleware.ExampleService proof_requested ETV
+53	416941	506.052257911675	1
+53	505140	566.052257911675	3
+53	610918	626.052257911675	5
+53	758768	686.052257911675	6
+52	416941	506.052257911675	0
+52	505140	566.052257911675	2
+52	610918	626.052257911675	2
+52	758768	686.052257911675	3
+vector 82 World.node[43].appl.middleware.ExampleService proof_size ETV
+vector 83 World.node[43].appl.middleware.ExampleService proof_requested ETV
+57	442168	522.024188380293	5
+57	527628	582.024188380293	3
+57	639624	639.064127472791	1
+57	819803	702.024188380293	5
+56	442168	522.024188380293	2
+56	527628	582.024188380293	1
+56	639624	639.064127472791	1
+56	819803	702.024188380293	1
+59	474549	548.019987651613	3
+59	570611	608.019987651613	3
+59	706489	668.019987651613	4
+58	474549	548.019987651613	2
+58	570611	608.019987651613	1
+58	706489	668.019987651613	1
+79	728523	676.091948316642	6
+78	728523	676.091948316642	0
+73	650183	644.004385119661	1
+73	825871	704.004382749947	1
+72	650183	644.004385119661	1
+72	825871	704.004382749947	1
+67	550932	596.112370424658	1
+67	684137	659.045302616432	6
+67	863562	719.045302616432	4
+66	550932	596.112370424658	1
+66	684137	659.045302616432	0
+66	863562	719.045302616432	1
+vector 84 World.node[45].appl.middleware.ExampleService proof_size ETV
+vector 85 World.node[45].appl.middleware.ExampleService proof_requested ETV
+63	508605	568.037751033437	4
+63	615942	628.037751033437	6
+63	766408	688.037751033437	8
+62	508605	568.037751033437	1
+62	615942	628.037751033437	2
+62	766408	688.037751033437	4
+69	613689	627.114868586293	1
+69	773657	690.078364705434	5
+68	613689	627.114868586293	1
+68	773657	690.078364705434	2
+vector 86 World.node[46].appl.middleware.ExampleService proof_size ETV
+vector 87 World.node[46].appl.middleware.ExampleService proof_requested ETV
+vector 88 World.node[44].appl.middleware.ExampleService proof_size ETV
+vector 89 World.node[44].appl.middleware.ExampleService proof_requested ETV
+65	523214	578.086981984763	5
+65	637732	638.086981984763	4
+65	807103	698.086981984763	5
+65	951368	758.086981984763	5
+64	523214	578.086981984763	3
+64	637732	638.086981984763	2
+64	807103	698.086981984763	4
+64	951368	758.086981984763	2
+61	490851	558.022190073458	5
+61	592205	618.022190073458	5
+61	733129	678.022190073458	7
+61	908582	735.105349821585	1
+60	490851	558.022190073458	3
+60	592205	618.022190073458	4
+60	733129	678.022190073458	0
+60	908582	735.105349821585	1
+vector 90 World.node[47].appl.middleware.ExampleService proof_size ETV
+vector 91 World.node[47].appl.middleware.ExampleService proof_requested ETV
+83	837075	708.037015929981	6
+83	964344	765.037384908736	1
+82	837075	708.037015929981	1
+82	964344	765.037384908736	1
+vector 92 World.node[49].appl.middleware.ExampleService proof_size ETV
+vector 93 World.node[49].appl.middleware.ExampleService proof_requested ETV
+75	677050	656.011124171829	4
+75	856128	716.011124171829	8
+75	978752	773.109927639448	1
+74	677050	656.011124171829	2
+74	856128	716.011124171829	2
+74	978752	773.109927639448	1
+vector 94 World.node[52].appl.middleware.ExampleService proof_size ETV
+vector 95 World.node[52].appl.middleware.ExampleService proof_requested ETV
+vector 96 World.node[50].appl.middleware.ExampleService proof_size ETV
+vector 97 World.node[50].appl.middleware.ExampleService proof_requested ETV
+85	904744	733.105602746176	1
+85	1009207	793.105610182204	1
+84	904744	733.105602746176	1
+84	1009207	793.105610182204	1
+89	967493	767.057703447528	2
+88	967493	767.057703447528	1
+77	688570	661.097094608354	6
+77	868526	721.097094608354	6
+77	986069	778.097461525525	1
+76	688570	661.097094608354	2
+76	868526	721.097094608354	0
+76	986069	778.097461525525	1
+vector 98 World.node[51].appl.middleware.ExampleService proof_size ETV
+vector 99 World.node[51].appl.middleware.ExampleService proof_requested ETV
+vector 100 World.node[55].appl.middleware.ExampleService proof_size ETV
+vector 101 World.node[55].appl.middleware.ExampleService proof_requested ETV
+vector 102 World.node[54].appl.middleware.ExampleService proof_size ETV
+vector 103 World.node[54].appl.middleware.ExampleService proof_requested ETV
+vector 104 World.node[53].appl.middleware.ExampleService proof_size ETV
+vector 105 World.node[53].appl.middleware.ExampleService proof_requested ETV
+81	806324	698.011119494122	8
+81	951041	758.011119494122	3
+81	1051214	815.175805378062	5
+80	806324	698.011119494122	0
+80	951041	758.011119494122	0
+80	1051214	815.175805378062	5
+vector 106 World.node[56].appl.middleware.ExampleService proof_size ETV
+vector 107 World.node[56].appl.middleware.ExampleService proof_requested ETV
+95	1028798	804.023421086743	1
+95	1144452	867.023057910055	6
+94	1028798	804.023421086743	1
+94	1144452	867.023057910055	2
+87	944817	755.041377337859	4
+87	1050049	815.041377337859	7
+87	1162113	875.041377337859	5
+86	944817	755.041377337859	0
+86	1050049	815.041377337859	4
+86	1162113	875.041377337859	1
+vector 108 World.node[57].appl.middleware.ExampleService proof_size ETV
+vector 109 World.node[57].appl.middleware.ExampleService proof_requested ETV
+91	977058	772.095698194671	4
+91	1073411	829.201491587829	2
+91	1188842	889.212956704142	1
+90	977058	772.095698194671	1
+90	1073411	829.201491587829	2
+90	1188842	889.212956704142	1
+107	1114192	853.063008752139	6
+107	1212734	910.071949674451	1
+106	1114192	853.063008752139	2
+106	1212734	910.071949674451	1
+71	637682	638.055518584652	3
+71	806998	698.055518584652	9
+71	951314	758.055518584652	4
+71	1050332	815.055881825301	1
+71	1169767	878.055518584652	6
+70	637682	638.055518584652	2
+70	806998	698.055518584652	5
+70	951314	758.055518584652	1
+70	1050332	815.055881825301	1
+70	1169767	878.055518584652	1
+105	1106952	849.090071599255	3
+105	1211703	909.090071599255	3
+104	1106952	849.090071599255	1
+104	1211703	909.090071599255	0
+97	1050627	815.083175906935	2
+97	1169765	878.052850090759	5
+96	1050627	815.083175906935	2
+96	1169765	878.052850090759	2
+109	1191079	891.055982737102	1
+108	1191079	891.055982737102	1
+vector 110 World.node[62].appl.middleware.ExampleService proof_size ETV
+vector 111 World.node[62].appl.middleware.ExampleService proof_requested ETV
+99	1071569	828.0834748019	5
+99	1187552	888.0834748019	4
+99	1250438	948.0834748019	3
+98	1071569	828.0834748019	3
+98	1187552	888.0834748019	1
+98	1250438	948.0834748019	1
+vector 112 World.node[64].appl.middleware.ExampleService proof_size ETV
+vector 113 World.node[64].appl.middleware.ExampleService proof_requested ETV
+103	1098029	844.06581448561	2
+103	1205348	904.06581448561	4
+103	1258639	961.126176010515	1
+102	1098029	844.06581448561	1
+102	1205348	904.06581448561	3
+102	1258639	961.126176010515	1
+vector 114 World.node[63].appl.middleware.ExampleService proof_size ETV
+vector 115 World.node[63].appl.middleware.ExampleService proof_requested ETV
+101	1077689	832.050179159964	1
+101	1195689	895.011832626583	5
+101	1298837	1015.011832626583	2
+100	1077689	832.050179159964	1
+100	1195689	895.011832626583	2
+100	1298837	1015.011832626583	1
+vector 116 World.node[61].appl.middleware.ExampleService proof_size ETV
+vector 117 World.node[61].appl.middleware.ExampleService proof_requested ETV
+vector 118 World.node[67].appl.middleware.ExampleService proof_size ETV
+vector 119 World.node[67].appl.middleware.ExampleService proof_requested ETV
+113	1287367	999.090330712019	1
+112	1287367	999.090330712019	1
+vector 120 World.node[65].appl.middleware.ExampleService proof_size ETV
+vector 121 World.node[65].appl.middleware.ExampleService proof_requested ETV
+93	993207	783.105353303651	2
+93	1101392	846.049812794919	3
+93	1207745	906.049812794919	4
+93	1304533	1023.098598233523	1
+92	993207	783.105353303651	2
+92	1101392	846.049812794919	1
+92	1207745	906.049812794919	2
+92	1304533	1023.098598233523	1
+vector 122 World.node[68].appl.middleware.ExampleService proof_size ETV
+vector 123 World.node[68].appl.middleware.ExampleService proof_requested ETV
+vector 124 World.node[69].appl.middleware.ExampleService proof_size ETV
+vector 125 World.node[69].appl.middleware.ExampleService proof_requested ETV
+vector 126 World.node[66].appl.middleware.ExampleService proof_size ETV
+vector 127 World.node[66].appl.middleware.ExampleService proof_requested ETV
+vector 128 World.node[70].appl.middleware.ExampleService proof_size ETV
+vector 129 World.node[70].appl.middleware.ExampleService proof_requested ETV
+vector 130 World.node[72].appl.middleware.ExampleService proof_size ETV
+vector 131 World.node[72].appl.middleware.ExampleService proof_requested ETV
+117	1309525	1029.076491892228	3
+117	1376254	1092.035736600356	3
+116	1309525	1029.076491892228	3
+116	1376254	1092.035736600356	0
+121	1338776	1057.102084888283	1
+121	1412215	1117.102073457023	1
+120	1338776	1057.102084888283	1
+120	1412215	1117.102073457023	1
+vector 132 World.node[71].appl.middleware.ExampleService proof_size ETV
+vector 133 World.node[71].appl.middleware.ExampleService proof_requested ETV
+127	1395439	1106.016376381577	2
+126	1395439	1106.016376381577	1
+119	1330513	1049.036964456434	4
+119	1395750	1106.09732499537	1
+118	1330513	1049.036964456434	2
+118	1395750	1106.09732499537	1
+vector 134 World.node[74].appl.middleware.ExampleService proof_size ETV
+vector 135 World.node[74].appl.middleware.ExampleService proof_requested ETV
+111	1273840	980.158825099243	1
+111	1320463	1040.1958532188	1
+111	1387184	1100.158832402468	1
+111	1482956	1163.09846458321	2
+110	1273840	980.158825099243	1
+110	1320463	1040.1958532188	1
+110	1387184	1100.158832402468	1
+110	1482956	1163.09846458321	1
+115	1299046	1015.071943008932	2
+115	1359089	1078.038482733164	4
+115	1441960	1135.15857291365	2
+114	1299046	1015.071943008932	2
+114	1359089	1078.038482733164	2
+114	1441960	1135.15857291365	2
+123	1376535	1092.095851945841	2
+123	1470671	1155.058540466754	3
+122	1376535	1092.095851945841	2
+122	1470671	1155.058540466754	2
+vector 136 World.node[76].appl.middleware.ExampleService proof_size ETV
+vector 137 World.node[76].appl.middleware.ExampleService proof_requested ETV
+vector 138 World.node[79].appl.middleware.ExampleService proof_size ETV
+vector 139 World.node[79].appl.middleware.ExampleService proof_requested ETV
+vector 140 World.node[80].appl.middleware.ExampleService proof_size ETV
+vector 141 World.node[80].appl.middleware.ExampleService proof_requested ETV
+131	1410334	1116.095850797121	2
+131	1502782	1176.086302178087	3
+130	1410334	1116.095850797121	2
+130	1502782	1176.086302178087	3
+vector 142 World.node[73].appl.middleware.ExampleService proof_size ETV
+vector 143 World.node[73].appl.middleware.ExampleService proof_requested ETV
+125	1388234	1101.026561404	1
+125	1484015	1164.02619175287	3
+124	1388234	1101.026561404	1
+124	1484015	1164.02619175287	0
+vector 144 World.node[78].appl.middleware.ExampleService proof_size ETV
+vector 145 World.node[78].appl.middleware.ExampleService proof_requested ETV
+vector 146 World.node[81].appl.middleware.ExampleService proof_size ETV
+vector 147 World.node[81].appl.middleware.ExampleService proof_requested ETV
+vector 148 World.node[77].appl.middleware.ExampleService proof_size ETV
+vector 149 World.node[77].appl.middleware.ExampleService proof_requested ETV
+149	1577083	1227.046212764685	3
+148	1577083	1227.046212764685	3
+141	1546460	1205.104521619974	2
+140	1546460	1205.104521619974	2
+143	1552042	1209.107165064924	3
+142	1552042	1209.107165064924	3
+129	1404220	1112.097078022507	2
+129	1495702	1172.156040536426	4
+129	1587198	1235.047048860183	2
+128	1404220	1112.097078022507	2
+128	1495702	1172.156040536426	4
+128	1587198	1235.047048860183	1
+135	1502712	1176.074410004728	5
+135	1588828	1236.074410004728	3
+134	1502712	1176.074410004728	1
+134	1588828	1236.074410004728	1
+vector 150 World.node[84].appl.middleware.ExampleService proof_size ETV
+vector 151 World.node[84].appl.middleware.ExampleService proof_requested ETV
+vector 152 World.node[82].appl.middleware.ExampleService proof_size ETV
+vector 153 World.node[82].appl.middleware.ExampleService proof_requested ETV
+vector 154 World.node[85].appl.middleware.ExampleService proof_size ETV
+vector 155 World.node[85].appl.middleware.ExampleService proof_requested ETV
+133	1444700	1137.118647546968	2
+133	1536240	1197.107164840118	1
+133	1609336	1257.114886579205	2
+132	1444700	1137.118647546968	2
+132	1536240	1197.107164840118	1
+132	1609336	1257.114886579205	2
+145	1566477	1220.039711658796	2
+145	1638619	1280.039711658796	4
+144	1566477	1220.039711658796	0
+144	1638619	1280.039711658796	1
+137	1536133	1197.071858447604	3
+137	1609181	1257.071858447604	4
+137	1674101	1314.132220470272	1
+136	1536133	1197.071858447604	2
+136	1609181	1257.071858447604	1
+136	1674101	1314.132220470272	1
+vector 156 World.node[83].appl.middleware.ExampleService proof_size ETV
+vector 157 World.node[83].appl.middleware.ExampleService proof_requested ETV
+147	1572887	1224.064304156807	1
+147	1645956	1287.06394228905	3
+147	1704412	1347.06394228905	3
+146	1572887	1224.064304156807	1
+146	1645956	1287.06394228905	2
+146	1704412	1347.06394228905	1
+vector 158 World.node[86].appl.middleware.ExampleService proof_size ETV
+vector 159 World.node[86].appl.middleware.ExampleService proof_requested ETV
+139	1538415	1199.098697538147	1
+139	1614174	1262.038329102704	4
+139	1678897	1319.098692763104	1
+138	1538415	1199.098697538147	1
+138	1614174	1262.038329102704	0
+138	1678897	1319.098692763104	1
+157	1715382	1358.072715852596	3
+156	1715382	1358.072715852596	1
+155	1665872	1307.063843529671	2
+155	1723861	1367.063843529671	2
+154	1665872	1307.063843529671	1
+154	1723861	1367.063843529671	1
+vector 160 World.node[88].appl.middleware.ExampleService proof_size ETV
+vector 161 World.node[88].appl.middleware.ExampleService proof_requested ETV
+vector 162 World.node[87].appl.middleware.ExampleService proof_size ETV
+vector 163 World.node[87].appl.middleware.ExampleService proof_requested ETV
+153	1644979	1286.054770796141	2
+153	1703377	1346.054770796141	3
+153	1760399	1406.054770796141	1
+152	1644979	1286.054770796141	1
+152	1703377	1346.054770796141	0
+152	1760399	1406.054770796141	0
+vector 164 World.node[89].appl.middleware.ExampleService proof_size ETV
+vector 165 World.node[89].appl.middleware.ExampleService proof_requested ETV
+vector 166 World.node[92].appl.middleware.ExampleService proof_size ETV
+vector 167 World.node[92].appl.middleware.ExampleService proof_requested ETV
+vector 168 World.node[91].appl.middleware.ExampleService proof_size ETV
+vector 169 World.node[91].appl.middleware.ExampleService proof_requested ETV
+vector 170 World.node[94].appl.middleware.ExampleService proof_size ETV
+vector 171 World.node[94].appl.middleware.ExampleService proof_requested ETV
+151	1644977	1286.041949194903	4
+151	1703375	1346.041949194903	3
+151	1760317	1406.041949194903	5
+150	1644977	1286.041949194903	1
+150	1703375	1346.041949194903	1
+150	1760317	1406.041949194903	2
+vector 172 World.node[93].appl.middleware.ExampleService proof_size ETV
+vector 173 World.node[93].appl.middleware.ExampleService proof_requested ETV
+169	1804763	1439.09595281363	3
+168	1804763	1439.09595281363	1
+vector 174 World.node[96].appl.middleware.ExampleService proof_size ETV
+vector 175 World.node[96].appl.middleware.ExampleService proof_requested ETV
+159	1717865	1360.134975909163	1
+159	1783480	1423.074610839691	5
+159	1864996	1483.074610839691	3
+158	1717865	1360.134975909163	1
+158	1783480	1423.074610839691	0
+158	1864996	1483.074610839691	1
+173	1844165	1467.044154693522	2
+172	1844165	1467.044154693522	2
+vector 176 World.node[99].appl.middleware.ExampleService proof_size ETV
+vector 177 World.node[99].appl.middleware.ExampleService proof_requested ETV
+161	1744270	1393.084037078195	2
+161	1821443	1450.084399719164	1
+160	1744270	1393.084037078195	1
+160	1821443	1450.084399719164	1
+175	1883995	1497.002720602439	2
+174	1883995	1497.002720602439	1
+163	1754741	1402.041461879923	6
+163	1837392	1462.041461879923	4
+163	1914729	1519.042112272723	1
+162	1754741	1402.041461879923	1
+162	1837392	1462.041461879923	0
+162	1914729	1519.042112272723	1
+165	1771759	1414.013971173414	5
+165	1853204	1474.013971173414	1
+164	1771759	1414.013971173414	2
+164	1853204	1474.013971173414	0
+vector 178 World.node[98].appl.middleware.ExampleService proof_size ETV
+vector 179 World.node[98].appl.middleware.ExampleService proof_requested ETV
+vector 180 World.node[97].appl.middleware.ExampleService proof_size ETV
+vector 181 World.node[97].appl.middleware.ExampleService proof_requested ETV
+vector 182 World.node[95].appl.middleware.ExampleService proof_size ETV
+vector 183 World.node[95].appl.middleware.ExampleService proof_requested ETV
+vector 184 World.node[101].appl.middleware.ExampleService proof_size ETV
+vector 185 World.node[101].appl.middleware.ExampleService proof_requested ETV
+167	1792093	1429.056574222422	6
+167	1872440	1489.056574222422	3
+167	1943330	1546.098922663309	2
+166	1792093	1429.056574222422	4
+166	1872440	1489.056574222422	2
+166	1943330	1546.098922663309	2
+vector 186 World.node[102].appl.middleware.ExampleService proof_size ETV
+vector 187 World.node[102].appl.middleware.ExampleService proof_requested ETV
+185	1951372	1555.044855004587	1
+184	1951372	1555.044855004587	1
+vector 188 World.node[104].appl.middleware.ExampleService proof_size ETV
+vector 189 World.node[104].appl.middleware.ExampleService proof_requested ETV
+177	1926107	1527.041686951369	4
+177	1980599	1584.124068306861	3
+176	1926107	1527.041686951369	2
+176	1980599	1584.124068306861	3
+vector 190 World.node[103].appl.middleware.ExampleService proof_size ETV
+vector 191 World.node[103].appl.middleware.ExampleService proof_requested ETV
+171	1819969	1449.060646860441	6
+171	1900448	1509.060646860441	3
+171	1962370	1566.122235755072	1
+170	1819969	1449.060646860441	5
+170	1900448	1509.060646860441	2
+170	1962370	1566.122235755072	1
+179	1937778	1539.124324191544	1
+179	2000417	1602.063950230391	3
+178	1937778	1539.124324191544	1
+178	2000417	1602.063950230391	2
+vector 192 World.node[106].appl.middleware.ExampleService proof_size ETV
+vector 193 World.node[106].appl.middleware.ExampleService proof_requested ETV
+vector 194 World.node[105].appl.middleware.ExampleService proof_size ETV
+vector 195 World.node[105].appl.middleware.ExampleService proof_requested ETV
+183	1947224	1550.098918981836	2
+183	2012483	1613.092526925262	3
+182	1947224	1550.098918981836	2
+182	2012483	1613.092526925262	2
+vector 196 World.node[107].appl.middleware.ExampleService proof_size ETV
+vector 197 World.node[107].appl.middleware.ExampleService proof_requested ETV
+181	1947054	1550.062119984138	3
+181	2008934	1610.062119984138	3
+180	1947054	1550.062119984138	2
+180	2008934	1610.062119984138	2
+vector 198 World.node[108].appl.middleware.ExampleService proof_size ETV
+vector 199 World.node[108].appl.middleware.ExampleService proof_requested ETV
+vector 200 World.node[111].appl.middleware.ExampleService proof_size ETV
+vector 201 World.node[111].appl.middleware.ExampleService proof_requested ETV
+vector 202 World.node[110].appl.middleware.ExampleService proof_size ETV
+vector 203 World.node[110].appl.middleware.ExampleService proof_requested ETV
+189	1991891	1595.026155546842	1
+189	2063225	1658.025781086064	2
+188	1991891	1595.026155546842	1
+188	2063225	1658.025781086064	0
+vector 204 World.node[112].appl.middleware.ExampleService proof_size ETV
+vector 205 World.node[112].appl.middleware.ExampleService proof_requested ETV
+187	1967577	1571.03881100344	2
+187	2027228	1628.039182392078	1
+187	2109360	1688.089228705392	3
+186	1967577	1571.03881100344	0
+186	2027228	1628.039182392078	1
+186	2109360	1688.089228705392	3
+vector 206 World.node[109].appl.middleware.ExampleService proof_size ETV
+vector 207 World.node[109].appl.middleware.ExampleService proof_requested ETV
+195	2059103	1655.039532788098	4
+194	2059103	1655.039532788098	3
+vector 208 World.node[114].appl.middleware.ExampleService proof_size ETV
+vector 209 World.node[114].appl.middleware.ExampleService proof_requested ETV
+197	2075382	1666.180202113008	4
+196	2075382	1666.180202113008	4
+205	2135536	1711.020694407425	2
+205	2209422	1771.020694407425	4
+204	2135536	1711.020694407425	0
+204	2209422	1771.020694407425	3
+203	2113161	1691.029485210442	1
+203	2185029	1754.029120144481	3
+202	2113161	1691.029485210442	1
+202	2185029	1754.029120144481	0
+vector 210 World.node[113].appl.middleware.ExampleService proof_size ETV
+vector 211 World.node[113].appl.middleware.ExampleService proof_requested ETV
+201	2108093	1687.098920923137	2
+201	2180223	1750.061517919507	3
+200	2108093	1687.098920923137	2
+200	2180223	1750.061517919507	2
+191	2006864	1608.067718875589	1
+191	2078600	1668.123701206348	4
+191	2157229	1731.067350881244	5
+190	2006864	1608.067718875589	1
+190	2078600	1668.123701206348	4
+190	2157229	1731.067350881244	2
+199	2099545	1681.180205346107	1
+199	2173383	1744.082345091435	5
+198	2099545	1681.180205346107	1
+198	2173383	1744.082345091435	2
+211	2217091	1777.090714529646	4
+210	2217091	1777.090714529646	3
+vector 212 World.node[116].appl.middleware.ExampleService proof_size ETV
+vector 213 World.node[116].appl.middleware.ExampleService proof_requested ETV
+vector 214 World.node[115].appl.middleware.ExampleService proof_size ETV
+vector 215 World.node[115].appl.middleware.ExampleService proof_requested ETV
+vector 216 World.node[118].appl.middleware.ExampleService proof_size ETV
+vector 217 World.node[118].appl.middleware.ExampleService proof_requested ETV
+209	2189449	1757.121627877426	2
+208	2189449	1757.121627877426	2
+vector 218 World.node[119].appl.middleware.ExampleService proof_size ETV
+vector 219 World.node[119].appl.middleware.ExampleService proof_requested ETV
+193	2036150	1637.020089716068	2
+193	2116581	1694.02046055543	1
+193	2188928	1757.020089716068	6
+192	2036150	1637.020089716068	0
+192	2116581	1694.02046055543	1
+192	2188928	1757.020089716068	0
+vector 220 World.node[120].appl.middleware.ExampleService proof_size ETV
+vector 221 World.node[120].appl.middleware.ExampleService proof_requested ETV
+vector 222 World.node[121].appl.middleware.ExampleService proof_size ETV
+vector 223 World.node[121].appl.middleware.ExampleService proof_requested ETV
+217	2259594	1830.113220537631	1
+216	2259594	1830.113220537631	1
+207	2151144	1725.024977197894	3
+207	2270033	1845.024977197894	2
+206	2151144	1725.024977197894	1
+206	2270033	1845.024977197894	1
+213	2238468	1800.047004236397	2
+213	2280081	1857.047376778913	1
+212	2238468	1800.047004236397	0
+212	2280081	1857.047376778913	1
+vector 224 World.node[117].appl.middleware.ExampleService proof_size ETV
+vector 225 World.node[117].appl.middleware.ExampleService proof_requested ETV
+vector 226 World.node[122].appl.middleware.ExampleService proof_size ETV
+vector 227 World.node[122].appl.middleware.ExampleService proof_requested ETV
+215	2242551	1806.096641882452	1
+215	2289882	1869.077127154125	1
+214	2242551	1806.096641882452	1
+214	2289882	1869.077127154125	0
+vector 228 World.node[125].appl.middleware.ExampleService proof_size ETV
+vector 229 World.node[125].appl.middleware.ExampleService proof_requested ETV
+223	2284192	1862.155512188041	2
+223	2336487	1922.141593755647	1
+222	2284192	1862.155512188041	2
+222	2336487	1922.141593755647	1
+vector 230 World.node[123].appl.middleware.ExampleService proof_size ETV
+vector 231 World.node[123].appl.middleware.ExampleService proof_requested ETV
+219	2270038	1845.081340405252	2
+219	2377164	1965.081340405252	3
+218	2270038	1845.081340405252	0
+218	2377164	1965.081340405252	2
+221	2275618	1851.184168506685	1
+221	2328178	1914.095403927821	2
+220	2275618	1851.184168506685	1
+220	2328178	1914.095403927821	1
+231	2368975	1956.141851685413	1
+230	2368975	1956.141851685413	1
+vector 232 World.node[124].appl.middleware.ExampleService proof_size ETV
+vector 233 World.node[124].appl.middleware.ExampleService proof_requested ETV
+vector 234 World.node[126].appl.middleware.ExampleService proof_size ETV
+vector 235 World.node[126].appl.middleware.ExampleService proof_requested ETV
+233	2386033	1977.160082432008	2
+232	2386033	1977.160082432008	2
+vector 236 World.node[127].appl.middleware.ExampleService proof_size ETV
+vector 237 World.node[127].appl.middleware.ExampleService proof_requested ETV
+vector 238 World.node[129].appl.middleware.ExampleService proof_size ETV
+vector 239 World.node[129].appl.middleware.ExampleService proof_requested ETV
+227	2330183	1916.112123283551	2
+227	2385164	1976.073679188006	1
+226	2330183	1916.112123283551	2
+226	2385164	1976.073679188006	1
+vector 240 World.node[128].appl.middleware.ExampleService proof_size ETV
+vector 241 World.node[128].appl.middleware.ExampleService proof_requested ETV
+vector 242 World.node[131].appl.middleware.ExampleService proof_size ETV
+vector 243 World.node[131].appl.middleware.ExampleService proof_requested ETV
+225	2307801	1893.024061332876	3
+225	2365649	1953.024061332876	3
+225	2410942	2010.024426240562	1
+224	2307801	1893.024061332876	2
+224	2365649	1953.024061332876	2
+224	2410942	2010.024426240562	1
+vector 244 World.node[132].appl.middleware.ExampleService proof_size ETV
+vector 245 World.node[132].appl.middleware.ExampleService proof_requested ETV
+235	2389161	1982.057906658924	3
+235	2440591	2039.112120690305	2
+234	2389161	1982.057906658924	0
+234	2440591	2039.112120690305	2
+vector 246 World.node[133].appl.middleware.ExampleService proof_size ETV
+vector 247 World.node[133].appl.middleware.ExampleService proof_requested ETV
+vector 248 World.node[134].appl.middleware.ExampleService proof_size ETV
+vector 249 World.node[134].appl.middleware.ExampleService proof_requested ETV
+vector 250 World.node[130].appl.middleware.ExampleService proof_size ETV
+vector 251 World.node[130].appl.middleware.ExampleService proof_requested ETV
+229	2349324	1936.052006473299	2
+229	2397196	1993.128130746816	2
+229	2456049	2053.11801433256	1
+229	2553801	2116.052006473299	5
+228	2349324	1936.052006473299	1
+228	2397196	1993.128130746816	2
+228	2456049	2053.11801433256	1
+228	2553801	2116.052006473299	2
+vector 252 World.node[135].appl.middleware.ExampleService proof_size ETV
+vector 253 World.node[135].appl.middleware.ExampleService proof_requested ETV
+vector 254 World.node[138].appl.middleware.ExampleService proof_size ETV
+vector 255 World.node[138].appl.middleware.ExampleService proof_requested ETV
+245	2434965	2033.060370041974	1
+245	2514373	2093.042458622683	1
+244	2434965	2033.060370041974	1
+244	2514373	2093.042458622683	1
+vector 256 World.node[136].appl.middleware.ExampleService proof_size ETV
+vector 257 World.node[136].appl.middleware.ExampleService proof_requested ETV
+241	2427467	2026.068020519731	3
+241	2499060	2083.111955021381	1
+240	2427467	2026.068020519731	2
+240	2499060	2083.111955021381	1
+vector 258 World.node[140].appl.middleware.ExampleService proof_size ETV
+vector 259 World.node[140].appl.middleware.ExampleService proof_requested ETV
+vector 260 World.node[137].appl.middleware.ExampleService proof_size ETV
+vector 261 World.node[137].appl.middleware.ExampleService proof_requested ETV
+vector 262 World.node[139].appl.middleware.ExampleService proof_size ETV
+vector 263 World.node[139].appl.middleware.ExampleService proof_requested ETV
+251	2522255	2098.092176467855	3
+251	2629561	2158.092176467855	4
+250	2522255	2098.092176467855	1
+250	2629561	2158.092176467855	0
+249	2505102	2087.053746660572	1
+249	2616639	2150.053384255292	6
+248	2505102	2087.053746660572	1
+248	2616639	2150.053384255292	4
+vector 264 World.node[142].appl.middleware.ExampleService proof_size ETV
+vector 265 World.node[142].appl.middleware.ExampleService proof_requested ETV
+vector 266 World.node[141].appl.middleware.ExampleService proof_size ETV
+vector 267 World.node[141].appl.middleware.ExampleService proof_requested ETV
+237	2400018	1996.212123714532	3
+237	2460637	2056.152288222712	5
+237	2659524	2176.16033264638	1
+236	2400018	1996.212123714532	3
+236	2460637	2056.152288222712	5
+236	2659524	2176.16033264638	1
+239	2417422	2017.120314153353	1
+239	2593144	2137.111957266734	2
+238	2417422	2017.120314153353	1
+238	2593144	2137.111957266734	2
+261	2611053	2147.091506522102	2
+260	2611053	2147.091506522102	1
+vector 268 World.node[143].appl.middleware.ExampleService proof_size ETV
+vector 269 World.node[143].appl.middleware.ExampleService proof_requested ETV
+247	2501751	2085.040552440938	2
+247	2606918	2145.040552440938	2
+247	2709432	2205.040552440938	4
+246	2501751	2085.040552440938	1
+246	2606918	2145.040552440938	1
+246	2709432	2205.040552440938	1
+253	2566068	2123.017071289779	5
+253	2670935	2183.017071289779	5
+252	2566068	2123.017071289779	1
+252	2670935	2183.017071289779	1
+257	2595189	2138.051848674938	2
+257	2700461	2198.051848674938	6
+256	2595189	2138.051848674938	1
+256	2700461	2198.051848674938	2
+vector 270 World.node[144].appl.middleware.ExampleService proof_size ETV
+vector 271 World.node[144].appl.middleware.ExampleService proof_requested ETV
+269	2734224	2219.080721976864	3
+268	2734224	2219.080721976864	1
+243	2430667	2029.037611264689	3
+243	2507688	2089.037611264689	3
+243	2614547	2149.037611264689	2
+243	2711093	2206.111965848594	2
+243	2808167	2269.037611264689	1
+242	2430667	2029.037611264689	2
+242	2507688	2089.037611264689	2
+242	2614547	2149.037611264689	1
+242	2711093	2206.111965848594	2
+242	2808167	2269.037611264689	0
+vector 272 World.node[145].appl.middleware.ExampleService proof_size ETV
+vector 273 World.node[145].appl.middleware.ExampleService proof_requested ETV
+vector 274 World.node[148].appl.middleware.ExampleService proof_size ETV
+vector 275 World.node[148].appl.middleware.ExampleService proof_requested ETV
+255	2583126	2132.032591639785	5
+255	2788225	2252.032591639785	2
+254	2583126	2132.032591639785	2
+254	2788225	2252.032591639785	1
+259	2598907	2140.162686783844	3
+259	2703345	2200.062686783844	3
+258	2598907	2140.162686783844	1
+258	2703345	2200.062686783844	1
+265	2666156	2180.097724145354	1
+265	2779593	2243.002812541043	3
+265	2845952	2303.002812541043	2
+264	2666156	2180.097724145354	1
+264	2779593	2243.002812541043	2
+264	2845952	2303.002812541043	1
+vector 276 World.node[147].appl.middleware.ExampleService proof_size ETV
+vector 277 World.node[147].appl.middleware.ExampleService proof_requested ETV
+263	2628138	2157.093997954484	2
+263	2730611	2217.093997954484	1
+263	2814888	2274.162918672418	1
+262	2628138	2157.093997954484	1
+262	2730611	2217.093997954484	0
+262	2814888	2274.162918672418	1
+273	2813464	2273.117239824283	1
+272	2813464	2273.117239824283	1
+vector 278 World.node[149].appl.middleware.ExampleService proof_size ETV
+vector 279 World.node[149].appl.middleware.ExampleService proof_requested ETV
+vector 280 World.node[151].appl.middleware.ExampleService proof_size ETV
+vector 281 World.node[151].appl.middleware.ExampleService proof_requested ETV
+267	2692169	2194.019805568596	2
+267	2790695	2254.019805568596	3
+267	2854841	2311.067364097358	1
+266	2692169	2194.019805568596	1
+266	2790695	2254.019805568596	0
+266	2854841	2311.067364097358	1
+vector 282 World.node[150].appl.middleware.ExampleService proof_size ETV
+vector 283 World.node[150].appl.middleware.ExampleService proof_requested ETV
+271	2784429	2248.086192554655	3
+271	2848525	2305.154112177267	1
+270	2784429	2248.086192554655	2
+270	2848525	2305.154112177267	1
+vector 284 World.node[155].appl.middleware.ExampleService proof_size ETV
+vector 285 World.node[155].appl.middleware.ExampleService proof_requested ETV
+vector 286 World.node[153].appl.middleware.ExampleService proof_size ETV
+vector 287 World.node[153].appl.middleware.ExampleService proof_requested ETV
+vector 288 World.node[154].appl.middleware.ExampleService proof_size ETV
+vector 289 World.node[154].appl.middleware.ExampleService proof_requested ETV
+vector 290 World.node[152].appl.middleware.ExampleService proof_size ETV
+vector 291 World.node[152].appl.middleware.ExampleService proof_requested ETV
+vector 292 World.node[156].appl.middleware.ExampleService proof_size ETV
+vector 293 World.node[156].appl.middleware.ExampleService proof_requested ETV
+275	2814397	2274.007255300833	3
+275	2869467	2331.007627687229	1
+275	2922634	2391.065312954599	1
+274	2814397	2274.007255300833	1
+274	2869467	2331.007627687229	1
+274	2922634	2391.065312954599	1
+283	2890724	2358.005197202438	2
+283	2953082	2415.006879782721	2
+282	2890724	2358.005197202438	1
+282	2953082	2415.006879782721	2
+vector 294 World.node[160].appl.middleware.ExampleService proof_size ETV
+vector 295 World.node[160].appl.middleware.ExampleService proof_requested ETV
+vector 296 World.node[157].appl.middleware.ExampleService proof_size ETV
+vector 297 World.node[157].appl.middleware.ExampleService proof_requested ETV
+277	2854965	2311.099960922489	1
+277	2902095	2371.091980573945	5
+277	2976014	2431.099307271503	3
+276	2854965	2311.099960922489	1
+276	2902095	2371.091980573945	5
+276	2976014	2431.099307271503	3
+vector 298 World.node[158].appl.middleware.ExampleService proof_size ETV
+vector 299 World.node[158].appl.middleware.ExampleService proof_requested ETV
+297	3028634	2460.027172630606	4
+296	3028634	2460.027172630606	2
+vector 300 World.node[159].appl.middleware.ExampleService proof_size ETV
+vector 301 World.node[159].appl.middleware.ExampleService proof_requested ETV
+291	2960547	2420.039191878564	5
+291	3067267	2480.039191878564	4
+290	2960547	2420.039191878564	0
+290	3067267	2480.039191878564	2
+vector 302 World.node[164].appl.middleware.ExampleService proof_size ETV
+vector 303 World.node[164].appl.middleware.ExampleService proof_requested ETV
+vector 304 World.node[165].appl.middleware.ExampleService proof_size ETV
+vector 305 World.node[165].appl.middleware.ExampleService proof_requested ETV
+279	2862592	2320.006875722346	1
+279	2911231	2380.096542108322	1
+279	2996689	2443.006509338063	3
+279	3101838	2500.091978411909	2
+278	2862592	2320.006875722346	1
+278	2911231	2380.096542108322	1
+278	2996689	2443.006509338063	1
+278	3101838	2500.091978411909	2
+vector 306 World.node[166].appl.middleware.ExampleService proof_size ETV
+vector 307 World.node[166].appl.middleware.ExampleService proof_requested ETV
+289	2953181	2415.036430177861	4
+289	3058284	2475.036430177861	4
+288	2953181	2415.036430177861	1
+288	3058284	2475.036430177861	1
+281	2864550	2323.081187922925	1
+281	2916787	2386.020822410192	4
+281	2997137	2443.112829436753	2
+281	3112455	2506.020822410192	3
+280	2864550	2323.081187922925	1
+280	2916787	2386.020822410192	3
+280	2997137	2443.112829436753	2
+280	3112455	2506.020822410192	1
+vector 308 World.node[163].appl.middleware.ExampleService proof_size ETV
+vector 309 World.node[163].appl.middleware.ExampleService proof_requested ETV
+285	2906881	2376.013571307878	4
+285	2984772	2436.013571307878	4
+285	3088943	2493.114876240087	2
+284	2906881	2376.013571307878	2
+284	2984772	2436.013571307878	0
+284	3088943	2493.114876240087	2
+301	3058544	2475.080939772853	1
+301	3169792	2538.052715208335	4
+300	3058544	2475.080939772853	1
+300	3169792	2538.052715208335	1
+vector 310 World.node[168].appl.middleware.ExampleService proof_size ETV
+vector 311 World.node[168].appl.middleware.ExampleService proof_requested ETV
+vector 312 World.node[169].appl.middleware.ExampleService proof_size ETV
+vector 313 World.node[169].appl.middleware.ExampleService proof_requested ETV
+vector 314 World.node[171].appl.middleware.ExampleService proof_size ETV
+vector 315 World.node[171].appl.middleware.ExampleService proof_requested ETV
+303	3087024	2492.094647277868	3
+303	3197583	2552.094647277868	5
+302	3087024	2492.094647277868	0
+302	3197583	2552.094647277868	4
+287	2930166	2397.092226950954	1
+287	3028636	2460.031865593698	3
+287	3131563	2517.092227361997	1
+286	2930166	2397.092226950954	1
+286	3028636	2460.031865593698	1
+286	3131563	2517.092227361997	1
+vector 316 World.node[170].appl.middleware.ExampleService proof_size ETV
+vector 317 World.node[170].appl.middleware.ExampleService proof_requested ETV
+vector 318 World.node[172].appl.middleware.ExampleService proof_size ETV
+vector 319 World.node[172].appl.middleware.ExampleService proof_requested ETV
+vector 320 World.node[167].appl.middleware.ExampleService proof_size ETV
+vector 321 World.node[167].appl.middleware.ExampleService proof_requested ETV
+vector 322 World.node[173].appl.middleware.ExampleService proof_size ETV
+vector 323 World.node[173].appl.middleware.ExampleService proof_requested ETV
+311	3224846	2565.080381346424	3
+310	3224846	2565.080381346424	0
+293	2966417	2424.046765786759	6
+293	3074041	2484.046765786759	5
+293	3181147	2544.046765786759	5
+293	3308274	2604.046765786759	5
+292	2966417	2424.046765786759	2
+292	3074041	2484.046765786759	4
+292	3181147	2544.046765786759	3
+292	3308274	2604.046765786759	3
+309	3160162	2533.054760262463	5
+309	3281923	2590.101857880135	3
+308	3160162	2533.054760262463	3
+308	3281923	2590.101857880135	3
+vector 324 World.node[174].appl.middleware.ExampleService proof_size ETV
+vector 325 World.node[174].appl.middleware.ExampleService proof_requested ETV
+299	3053675	2472.216539854739	4
+299	3164059	2535.082945978455	5
+299	3291698	2595.082945978455	4
+299	3403586	2652.1598482775	2
+298	3053675	2472.216539854739	4
+298	3164059	2535.082945978455	2
+298	3291698	2595.082945978455	2
+298	3403586	2652.1598482775	2
+305	3103381	2501.099733161554	2
+305	3215975	2561.099733161554	5
+305	3342209	2621.099733161554	3
+304	3103381	2501.099733161554	1
+304	3215975	2561.099733161554	2
+304	3342209	2621.099733161554	2
+313	3229085	2567.098458922543	1
+313	3360978	2630.040667324443	3
+312	3229085	2567.098458922543	1
+312	3360978	2630.040667324443	2
+307	3128271	2515.093102732015	1
+307	3254661	2578.016824754141	3
+307	3378128	2638.016824754141	2
+306	3128271	2515.093102732015	1
+306	3254661	2578.016824754141	2
+306	3378128	2638.016824754141	1
+317	3279686	2589.038344519143	5
+317	3393239	2646.076930549969	2
+316	3279686	2589.038344519143	3
+316	3393239	2646.076930549969	2
+vector 326 World.node[176].appl.middleware.ExampleService proof_size ETV
+vector 327 World.node[176].appl.middleware.ExampleService proof_requested ETV
+295	3022612	2457.01197186932	2
+295	3126031	2514.0123426597	1
+295	3252148	2577.01197186932	2
+295	3376184	2637.01197186932	5
+294	3022612	2457.01197186932	0
+294	3126031	2514.0123426597	1
+294	3252148	2577.01197186932	1
+294	3376184	2637.01197186932	2
+315	3247708	2575.098454566816	2
+314	3247708	2575.098454566816	2
+325	3404785	2653.063010916137	3
+324	3404785	2653.063010916137	1
+327	3446374	2684.093240112369	6
+326	3446374	2684.093240112369	2
+321	3314836	2608.00961337958	3
+321	3428957	2668.00961337958	2
+321	3471949	2725.00998004279	1
+320	3314836	2608.00961337958	2
+320	3428957	2668.00961337958	1
+320	3471949	2725.00998004279	1
+vector 328 World.node[178].appl.middleware.ExampleService proof_size ETV
+vector 329 World.node[178].appl.middleware.ExampleService proof_requested ETV
+323	3342185	2621.098455614748	2
+323	3446331	2684.073711839877	2
+323	3480334	2741.132493439986	1
+322	3342185	2621.098455614748	2
+322	3446331	2684.073711839877	1
+322	3480334	2741.132493439986	1
+vector 330 World.node[179].appl.middleware.ExampleService proof_size ETV
+vector 331 World.node[179].appl.middleware.ExampleService proof_requested ETV
+vector 332 World.node[181].appl.middleware.ExampleService proof_size ETV
+vector 333 World.node[181].appl.middleware.ExampleService proof_requested ETV
+vector 334 World.node[183].appl.middleware.ExampleService proof_size ETV
+vector 335 World.node[183].appl.middleware.ExampleService proof_requested ETV
+vector 336 World.node[180].appl.middleware.ExampleService proof_size ETV
+vector 337 World.node[180].appl.middleware.ExampleService proof_requested ETV
+vector 338 World.node[182].appl.middleware.ExampleService proof_size ETV
+vector 339 World.node[182].appl.middleware.ExampleService proof_requested ETV
+329	3477386	2736.07237697884	1
+329	3516725	2793.078109763453	1
+328	3477386	2736.07237697884	0
+328	3516725	2793.078109763453	1
+vector 340 World.node[185].appl.middleware.ExampleService proof_size ETV
+vector 341 World.node[185].appl.middleware.ExampleService proof_requested ETV
+vector 342 World.node[186].appl.middleware.ExampleService proof_size ETV
+vector 343 World.node[186].appl.middleware.ExampleService proof_requested ETV
+vector 344 World.node[187].appl.middleware.ExampleService proof_size ETV
+vector 345 World.node[187].appl.middleware.ExampleService proof_requested ETV
+337	3520139	2796.045399874006	2
+336	3520139	2796.045399874006	1
+vector 346 World.node[184].appl.middleware.ExampleService proof_size ETV
+vector 347 World.node[184].appl.middleware.ExampleService proof_requested ETV
+vector 348 World.node[189].appl.middleware.ExampleService proof_size ETV
+vector 349 World.node[189].appl.middleware.ExampleService proof_requested ETV
+333	3507382	2783.032490677275	2
+333	3581956	2846.017996699037	4
+332	3507382	2783.032490677275	2
+332	3581956	2846.017996699037	1
+339	3522694	2798.089736602819	3
+339	3600769	2861.038271176745	4
+338	3522694	2798.089736602819	3
+338	3600769	2861.038271176745	2
+vector 350 World.node[188].appl.middleware.ExampleService proof_size ETV
+vector 351 World.node[188].appl.middleware.ExampleService proof_requested ETV
+vector 352 World.node[193].appl.middleware.ExampleService proof_size ETV
+vector 353 World.node[193].appl.middleware.ExampleService proof_requested ETV
+349	3659678	2896.058243642421	2
+348	3659678	2896.058243642421	0
+vector 354 World.node[191].appl.middleware.ExampleService proof_size ETV
+vector 355 World.node[191].appl.middleware.ExampleService proof_requested ETV
+vector 356 World.node[194].appl.middleware.ExampleService proof_size ETV
+vector 357 World.node[194].appl.middleware.ExampleService proof_requested ETV
+vector 358 World.node[192].appl.middleware.ExampleService proof_size ETV
+vector 359 World.node[192].appl.middleware.ExampleService proof_requested ETV
+347	3616858	2873.083287680778	2
+347	3735346	2933.083287680778	4
+346	3616858	2873.083287680778	0
+346	3735346	2933.083287680778	1
+319	3306944	2603.102104469207	1
+319	3426784	2666.041742339777	5
+319	3470850	2723.102105807737	1
+319	3509627	2786.041742339777	3
+319	3582082	2846.041742339777	4
+319	3678129	2906.041742339777	2
+318	3306944	2603.102104469207	1
+318	3426784	2666.041742339777	4
+318	3470850	2723.102105807737	1
+318	3509627	2786.041742339777	0
+318	3582082	2846.041742339777	0
+318	3678129	2906.041742339777	1
+331	3495483	2765.040566164209	3
+331	3551042	2822.105513450382	3
+331	3630424	2882.118349912941	2
+331	3757066	2942.159675200719	3
+330	3495483	2765.040566164209	1
+330	3551042	2822.105513450382	3
+330	3630424	2882.118349912941	2
+330	3757066	2942.159675200719	3
+vector 360 World.node[196].appl.middleware.ExampleService proof_size ETV
+vector 361 World.node[196].appl.middleware.ExampleService proof_requested ETV
+335	3510435	2787.02962183007	4
+335	3583405	2847.02962183007	3
+335	3680054	2907.02962183007	2
+334	3510435	2787.02962183007	2
+334	3583405	2847.02962183007	1
+334	3680054	2907.02962183007	1
+vector 362 World.node[195].appl.middleware.ExampleService proof_size ETV
+vector 363 World.node[195].appl.middleware.ExampleService proof_requested ETV
+vector 364 World.node[198].appl.middleware.ExampleService proof_size ETV
+vector 365 World.node[198].appl.middleware.ExampleService proof_requested ETV
+343	3562426	2832.159681442339	1
+343	3650702	2892.118356313739	2
+343	3790366	2955.057423538412	4
+342	3562426	2832.159681442339	1
+342	3650702	2892.118356313739	2
+342	3790366	2955.057423538412	1
+vector 366 World.node[199].appl.middleware.ExampleService proof_size ETV
+vector 367 World.node[199].appl.middleware.ExampleService proof_requested ETV
+vector 368 World.node[200].appl.middleware.ExampleService proof_size ETV
+vector 369 World.node[200].appl.middleware.ExampleService proof_requested ETV
+vector 370 World.node[190].appl.middleware.ExampleService proof_size ETV
+vector 371 World.node[190].appl.middleware.ExampleService proof_requested ETV
+355	3749679	2939.154217826237	1
+355	3874228	2999.154223134911	1
+354	3749679	2939.154217826237	1
+354	3874228	2999.154223134911	1
+363	3814312	2968.079435830337	1
+362	3814312	2968.079435830337	1
+vector 372 World.node[197].appl.middleware.ExampleService proof_size ETV
+vector 373 World.node[197].appl.middleware.ExampleService proof_requested ETV
+vector 374 World.node[202].appl.middleware.ExampleService proof_size ETV
+vector 375 World.node[202].appl.middleware.ExampleService proof_requested ETV
+vector 376 World.node[201].appl.middleware.ExampleService proof_size ETV
+vector 377 World.node[201].appl.middleware.ExampleService proof_requested ETV
+351	3699661	2917.08308710712	3
+351	3830541	2977.08308710712	7
+350	3699661	2917.08308710712	1
+350	3830541	2977.08308710712	0
+vector 378 World.node[203].appl.middleware.ExampleService proof_size ETV
+vector 379 World.node[203].appl.middleware.ExampleService proof_requested ETV
+vector 380 World.node[205].appl.middleware.ExampleService proof_size ETV
+vector 381 World.node[205].appl.middleware.ExampleService proof_requested ETV
+345	3571811	2839.000709485263	3
+345	3665296	2899.000709485263	4
+345	3799139	2959.000709485263	3
+344	3571811	2839.000709485263	1
+344	3665296	2899.000709485263	0
+344	3799139	2959.000709485263	1
+353	3701582	2918.002479488752	2
+353	3832280	2978.002479488752	3
+353	3958808	3038.002479488752	4
+352	3701582	2918.002479488752	0
+352	3832280	2978.002479488752	2
+352	3958808	3038.002479488752	1
+vector 382 World.node[206].appl.middleware.ExampleService proof_size ETV
+vector 383 World.node[206].appl.middleware.ExampleService proof_requested ETV
+vector 384 World.node[204].appl.middleware.ExampleService proof_size ETV
+vector 385 World.node[204].appl.middleware.ExampleService proof_requested ETV
+341	3554519	2825.159934704947	1
+341	3636926	2885.198385260868	2
+341	3772892	2948.099564360594	3
+341	3892838	3008.099564360594	2
+341	4019625	3065.170118938439	2
+340	3554519	2825.159934704947	1
+340	3636926	2885.198385260868	2
+340	3772892	2948.099564360594	0
+340	3892838	3008.099564360594	0
+340	4019625	3065.170118938439	2
+357	3762044	2944.053962419255	1
+357	3890647	3007.010009288811	3
+357	4024043	3067.010009288811	4
+356	3762044	2944.053962419255	1
+356	3890647	3007.010009288811	2
+356	4024043	3067.010009288811	1
+375	3913767	3019.01762441555	4
+374	3913767	3019.01762441555	1
+377	3915792	3020.075999178225	4
+377	4043517	3077.136363236661	1
+376	3915792	3020.075999178225	1
+376	4043517	3077.136363236661	1
+359	3767728	2946.057020078623	3
+359	3888557	3006.057020078623	4
+359	4021877	3066.057020078623	4
+358	3767728	2946.057020078623	1
+358	3888557	3006.057020078623	1
+358	4021877	3066.057020078623	3
+361	3795408	2957.130644078377	2
+361	4043562	3077.149405753586	1
+360	3795408	2957.130644078377	2
+360	4043562	3077.149405753586	1
+vector 386 World.node[207].appl.middleware.ExampleService proof_size ETV
+vector 387 World.node[207].appl.middleware.ExampleService proof_requested ETV
+365	3824937	2974.060821726503	1
+365	4076316	3097.018221090431	4
+364	3824937	2974.060821726503	1
+364	4076316	3097.018221090431	0
+vector 388 World.node[208].appl.middleware.ExampleService proof_size ETV
+vector 389 World.node[208].appl.middleware.ExampleService proof_requested ETV
+vector 390 World.node[209].appl.middleware.ExampleService proof_size ETV
+vector 391 World.node[209].appl.middleware.ExampleService proof_requested ETV
+383	4022028	3066.077591138682	4
+383	4127933	3126.077591138682	3
+382	4022028	3066.077591138682	0
+382	4127933	3126.077591138682	2
+369	3875824	3000.03232127924	2
+369	4005504	3060.03232127924	4
+369	4119290	3120.03232127924	6
+368	3875824	3000.03232127924	0
+368	4005504	3060.03232127924	1
+368	4119290	3120.03232127924	2
+367	3853779	2989.088834295631	4
+367	3977658	3046.170121036941	2
+367	4098899	3109.088834295631	6
+366	3853779	2989.088834295631	1
+366	3977658	3046.170121036941	2
+366	4098899	3109.088834295631	2
+373	3897907	3011.070309955417	4
+373	4032928	3071.070309955417	5
+373	4136129	3131.070309955417	3
+372	3897907	3011.070309955417	3
+372	4032928	3071.070309955417	0
+372	4136129	3131.070309955417	1
+vector 392 World.node[210].appl.middleware.ExampleService proof_size ETV
+vector 393 World.node[210].appl.middleware.ExampleService proof_requested ETV
+vector 394 World.node[212].appl.middleware.ExampleService proof_size ETV
+vector 395 World.node[212].appl.middleware.ExampleService proof_requested ETV
+vector 396 World.node[211].appl.middleware.ExampleService proof_size ETV
+vector 397 World.node[211].appl.middleware.ExampleService proof_requested ETV
+vector 398 World.node[213].appl.middleware.ExampleService proof_size ETV
+vector 399 World.node[213].appl.middleware.ExampleService proof_requested ETV
+381	3990784	3052.149664333214	1
+381	4110446	3115.089294672315	6
+381	4202464	3172.149664663801	1
+380	3990784	3052.149664333214	1
+380	4110446	3115.089294672315	4
+380	4202464	3172.149664663801	1
+vector 400 World.node[214].appl.middleware.ExampleService proof_size ETV
+vector 401 World.node[214].appl.middleware.ExampleService proof_requested ETV
+371	3877782	3001.05567669936	4
+371	4007586	3061.05567669936	4
+371	4120686	3121.05567669936	5
+371	4209856	3178.163127463325	1
+370	3877782	3001.05567669936	2
+370	4007586	3061.05567669936	1
+370	4120686	3121.05567669936	1
+370	4209856	3178.163127463325	1
+379	3983119	3049.00301957475	4
+379	4098515	3109.00301957475	5
+379	4197869	3169.00301957475	2
+379	4292852	3226.003386019278	1
+378	3983119	3049.00301957475	3
+378	4098515	3109.00301957475	1
+378	4197869	3169.00301957475	1
+378	4292852	3226.003386019278	1
+vector 402 World.node[216].appl.middleware.ExampleService proof_size ETV
+vector 403 World.node[216].appl.middleware.ExampleService proof_requested ETV
+vector 404 World.node[217].appl.middleware.ExampleService proof_size ETV
+vector 405 World.node[217].appl.middleware.ExampleService proof_requested ETV
+403	4330108	3250.002842534194	5
+402	4330108	3250.002842534194	2
+389	4129497	3127.049474966014	4
+389	4324708	3247.049474966014	3
+388	4129497	3127.049474966014	1
+388	4324708	3247.049474966014	0
+387	4068913	3092.137707690452	2
+387	4172473	3152.13042493619	3
+387	4265294	3212.045564443137	1
+386	4068913	3092.137707690452	2
+386	4172473	3152.13042493619	3
+386	4265294	3212.045564443137	1
+391	4139095	3133.061805622303	4
+391	4231973	3193.061805622303	3
+391	4330597	3250.12217404747	1
+390	4139095	3133.061805622303	2
+390	4231973	3193.061805622303	2
+390	4330597	3250.12217404747	1
+vector 406 World.node[221].appl.middleware.ExampleService proof_size ETV
+vector 407 World.node[221].appl.middleware.ExampleService proof_requested ETV
+vector 408 World.node[219].appl.middleware.ExampleService proof_size ETV
+vector 409 World.node[219].appl.middleware.ExampleService proof_requested ETV
+vector 410 World.node[220].appl.middleware.ExampleService proof_size ETV
+vector 411 World.node[220].appl.middleware.ExampleService proof_requested ETV
+385	4026871	3068.100737949781	1
+385	4136027	3131.040369891841	5
+385	4228886	3191.040369891841	3
+385	4332063	3251.040369891841	4
+384	4026871	3068.100737949781	1
+384	4136027	3131.040369891841	4
+384	4228886	3191.040369891841	1
+384	4332063	3251.040369891841	3
+395	4216509	3183.187743584624	1
+395	4322751	3246.087549010292	6
+395	4429125	3306.087549010292	3
+394	4216509	3183.187743584624	1
+394	4322751	3246.087549010292	4
+394	4429125	3306.087549010292	0
+407	4416998	3298.147660650812	2
+406	4416998	3298.147660650812	2
+399	4283101	3221.027625170839	4
+399	4383385	3278.147658647816	3
+398	4283101	3221.027625170839	1
+398	4383385	3278.147658647816	3
+397	4246836	3202.031457773549	3
+397	4348172	3259.087740390527	5
+397	4454225	3322.031457773549	2
+396	4246836	3202.031457773549	2
+396	4348172	3259.087740390527	5
+396	4454225	3322.031457773549	0
+393	4204602	3174.068500032579	4
+393	4304547	3234.068500032579	4
+393	4410889	3294.068500032579	2
+392	4204602	3174.068500032579	0
+392	4304547	3234.068500032579	2
+392	4410889	3294.068500032579	1
+vector 412 World.node[223].appl.middleware.ExampleService proof_size ETV
+vector 413 World.node[223].appl.middleware.ExampleService proof_requested ETV
+vector 414 World.node[224].appl.middleware.ExampleService proof_size ETV
+vector 415 World.node[224].appl.middleware.ExampleService proof_requested ETV
+vector 416 World.node[225].appl.middleware.ExampleService proof_size ETV
+vector 417 World.node[225].appl.middleware.ExampleService proof_requested ETV
+405	4350029	3260.073603360658	7
+405	4451359	3320.073603360658	4
+405	4517194	3377.175603917315	2
+404	4350029	3260.073603360658	3
+404	4451359	3320.073603360658	2
+404	4517194	3377.175603917315	2
+vector 418 World.node[222].appl.middleware.ExampleService proof_size ETV
+vector 419 World.node[222].appl.middleware.ExampleService proof_requested ETV
+vector 420 World.node[228].appl.middleware.ExampleService proof_size ETV
+vector 421 World.node[228].appl.middleware.ExampleService proof_requested ETV
+vector 422 World.node[230].appl.middleware.ExampleService proof_size ETV
+vector 423 World.node[230].appl.middleware.ExampleService proof_requested ETV
+vector 424 World.node[229].appl.middleware.ExampleService proof_size ETV
+vector 425 World.node[229].appl.middleware.ExampleService proof_requested ETV
+vector 426 World.node[227].appl.middleware.ExampleService proof_size ETV
+vector 427 World.node[227].appl.middleware.ExampleService proof_requested ETV
+401	4291053	3225.080043431243	1
+401	4400190	3288.079682808626	2
+400	4291053	3225.080043431243	1
+400	4400190	3288.079682808626	0
+409	4438494	3312.015485788952	4
+409	4511317	3372.015485788952	4
+409	4589791	3429.01585149166	1
+408	4438494	3312.015485788952	3
+408	4511317	3372.015485788952	1
+408	4589791	3429.01585149166	1
+vector 428 World.node[226].appl.middleware.ExampleService proof_size ETV
+vector 429 World.node[226].appl.middleware.ExampleService proof_requested ETV
+413	4495849	3356.175600115119	2
+413	4569151	3416.102511043002	1
+412	4495849	3356.175600115119	2
+412	4569151	3416.102511043002	1
+411	4440229	3313.016305039334	3
+411	4512313	3373.016305039334	2
+410	4440229	3313.016305039334	0
+410	4512313	3373.016305039334	0
+vector 430 World.node[232].appl.middleware.ExampleService proof_size ETV
+vector 431 World.node[232].appl.middleware.ExampleService proof_requested ETV
+vector 432 World.node[233].appl.middleware.ExampleService proof_size ETV
+vector 433 World.node[233].appl.middleware.ExampleService proof_requested ETV
+419	4549439	3402.003718134318	3
+419	4642846	3462.003718134318	5
+418	4549439	3402.003718134318	1
+418	4642846	3462.003718134318	2
+415	4520755	3380.140773070188	1
+415	4614262	3443.05820937634	3
+414	4520755	3380.140773070188	1
+414	4614262	3443.05820937634	2
+431	4665031	3478.130947674125	1
+430	4665031	3478.130947674125	1
+vector 434 World.node[234].appl.middleware.ExampleService proof_size ETV
+vector 435 World.node[234].appl.middleware.ExampleService proof_requested ETV
+vector 436 World.node[231].appl.middleware.ExampleService proof_size ETV
+vector 437 World.node[231].appl.middleware.ExampleService proof_requested ETV
+423	4584881	3426.085769974045	4
+423	4673341	3483.14077516238	2
+422	4584881	3426.085769974045	3
+422	4673341	3483.14077516238	2
+427	4607163	3439.130946533284	3
+427	4700911	3499.140779542212	1
+426	4607163	3439.130946533284	3
+426	4700911	3499.140779542212	1
+429	4626796	3451.042404703028	4
+428	4626796	3451.042404703028	2
+vector 438 World.node[235].appl.middleware.ExampleService proof_size ETV
+vector 439 World.node[235].appl.middleware.ExampleService proof_requested ETV
+421	4567832	3415.070841610502	4
+421	4655709	3472.071204068487	1
+420	4567832	3415.070841610502	1
+420	4655709	3472.071204068487	1
+417	4538470	3394.080663570249	4
+417	4631442	3454.080663570249	4
+417	4711455	3511.141030054318	1
+416	4538470	3394.080663570249	2
+416	4631442	3454.080663570249	1
+416	4711455	3511.141030054318	1
+vector 440 World.node[236].appl.middleware.ExampleService proof_size ETV
+vector 441 World.node[236].appl.middleware.ExampleService proof_requested ETV
+435	4699292	3498.079243925384	1
+434	4699292	3498.079243925384	1
+vector 442 World.node[237].appl.middleware.ExampleService proof_size ETV
+vector 443 World.node[237].appl.middleware.ExampleService proof_requested ETV
+vector 444 World.node[239].appl.middleware.ExampleService proof_size ETV
+vector 445 World.node[239].appl.middleware.ExampleService proof_requested ETV
+443	4757549	3578.025054886122	2
+442	4757549	3578.025054886122	0
+vector 446 World.node[238].appl.middleware.ExampleService proof_size ETV
+vector 447 World.node[238].appl.middleware.ExampleService proof_requested ETV
+437	4704190	3502.079497234241	1
+437	4745071	3562.085170316442	2
+436	4704190	3502.079497234241	1
+436	4745071	3562.085170316442	2
+439	4717154	3518.08877006839	2
+439	4755188	3575.149133884295	1
+438	4717154	3518.08877006839	1
+438	4755188	3575.149133884295	1
+425	4586530	3427.063682767376	5
+425	4675395	3484.130952928419	2
+425	4731746	3544.148884770142	1
+425	4781245	3607.063682767376	3
+424	4586530	3427.063682767376	2
+424	4675395	3484.130952928419	2
+424	4731746	3544.148884770142	1
+424	4781245	3607.063682767376	1
+vector 448 World.node[240].appl.middleware.ExampleService proof_size ETV
+vector 449 World.node[240].appl.middleware.ExampleService proof_requested ETV
+447	4768506	3591.122841390794	3
+447	4801883	3654.087907371554	3
+446	4768506	3591.122841390794	3
+446	4801883	3654.087907371554	0
+433	4679434	3486.145880760092	3
+433	4733123	3546.123797333908	1
+433	4782751	3609.062727285759	3
+433	4806706	3669.062727285759	2
+432	4679434	3486.145880760092	3
+432	4733123	3546.123797333908	1
+432	4782751	3609.062727285759	2
+432	4806706	3669.062727285759	1
+441	4744904	3562.027201625891	2
+441	4809426	3679.027570205266	1
+440	4744904	3562.027201625891	1
+440	4809426	3679.027570205266	1
+445	4759382	3580.053390350486	1
+445	4797632	3643.05302349634	3
+445	4816407	3700.053392343637	1
+444	4759382	3580.053390350486	1
+444	4797632	3643.05302349634	1
+444	4816407	3700.053392343637	1
+449	4789549	3621.010170343006	4
+448	4789549	3621.010170343006	2
+

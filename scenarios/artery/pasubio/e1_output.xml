@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Nov 14 20:20:11 2019 by Eclipse SUMO Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="pasubio/pasubio_real.net.xml"/>
+        <route-files value="pasubio/pasubio_real.rou.xml"/>
+        <additional-files value="pasubio/pasubio_vtypes.add.xml,pasubio/pasubio_bus_stops.add.xml,pasubio/pasubio_busses.rou.xml,pasubio/pasubio_detectors.add.xml,pasubio/pasubio_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="pasubio/tripinfos.xml"/>
+    </output>
+
+    <report>
+        <log value="pasubio/sumo_log.txt"/>
+        <message-log value="sumo-0.log"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51961"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
